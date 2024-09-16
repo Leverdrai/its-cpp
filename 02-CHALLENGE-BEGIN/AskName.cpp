@@ -4,14 +4,18 @@
 
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main () {
-    std::string name;
-    std::cin >> name;
+    string name;
 
-    std::cout << name;
+    cout << "Come ti chiami?" << endl;
 
-    std::cout << std::endl << std::endl;
+    cin >> name;
+
+    cout << "Ciao " +  name;
+
+    cout << endl << endl;
 
     return(0);
 }
